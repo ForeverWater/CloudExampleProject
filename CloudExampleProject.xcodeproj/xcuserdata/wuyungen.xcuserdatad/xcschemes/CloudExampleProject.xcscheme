@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4B262E961EA74B2F0098F68F"
+               BuildableName = "CloudExampleProject.app"
+               BlueprintName = "CloudExampleProject"
+               ReferencedContainer = "container:CloudExampleProject.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4B262EAF1EA74B2F0098F68F"
+               BuildableName = "CloudExampleProjectTests.xctest"
+               BlueprintName = "CloudExampleProjectTests"
+               ReferencedContainer = "container:CloudExampleProject.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4B262EBA1EA74B2F0098F68F"
+               BuildableName = "CloudExampleProjectUITests.xctest"
+               BlueprintName = "CloudExampleProjectUITests"
+               ReferencedContainer = "container:CloudExampleProject.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "4B262E961EA74B2F0098F68F"
+            BuildableName = "CloudExampleProject.app"
+            BlueprintName = "CloudExampleProject"
+            ReferencedContainer = "container:CloudExampleProject.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "4B262E961EA74B2F0098F68F"
+            BuildableName = "CloudExampleProject.app"
+            BlueprintName = "CloudExampleProject"
+            ReferencedContainer = "container:CloudExampleProject.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "4B262E961EA74B2F0098F68F"
+            BuildableName = "CloudExampleProject.app"
+            BlueprintName = "CloudExampleProject"
+            ReferencedContainer = "container:CloudExampleProject.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

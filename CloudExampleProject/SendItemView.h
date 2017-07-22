@@ -8,11 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SendIternView : UIView
+@interface SendItemView : UIView
 
 @property (nonatomic, strong) CAEmitterCell *effectCell;
 @property (nonatomic, strong) CAEmitterLayer *effectLayer;
 
 - (void)startAnimation;
+- (void)stopAnimation;
 
 @end

@@ -6,18 +6,17 @@
 //  Copyright © 2017年 吴运根. All rights reserved.
 //
 
-#import "SendIternView.h"
+#import "SendItemView.h"
 
-@implementation SendIternView
+@implementation SendItemView {
+    UIImageView *imageV;
+}
 
 - (instancetype)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
         _effectLayer = [CAEmitterLayer layer];
-        _effectLayer.borderColor = [UIColor redColor].CGColor
-        ;
-        _effectLayer.borderWidth = 1.0f;
         _effectLayer.position = CGPointMake(-30, 30);//发射位置
-        _effectLayer.emitterSize = self.frame.size;//发射源的尺寸大小，其实这个emitterSize结合position构建了发射源的位置及大小的矩形区域rect
+        _effectLayer.emitterSize = self.frame.size;//发射源的尺寸大小，其实这个emitterSize结合position构建了发射源的位置及大小的矩形区域rect.该size不是粒子的size
         
         _effectLayer.emitterShape = kCAEmitterLayerPoint;//发射源的形状，这个字段规定了发射源的形状
         _effectLayer.emitterMode = kCAEmitterLayerOutline;//发射模式，这个字段规定了在特定形状上发射的具体形式是什么
@@ -43,7 +42,7 @@
 }
 
 - (void)stopAnimation {
-
+    [_effectLayer removeFromSuperlayer];
 }
 
 @end

@@ -15,6 +15,7 @@
 		4B262EAA1EA74B2F0098F68F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B262EA81EA74B2F0098F68F /* LaunchScreen.storyboard */; };
 		4B262EB51EA74B2F0098F68F /* CloudExampleProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B262EB41EA74B2F0098F68F /* CloudExampleProjectTests.m */; };
 		4B262EC01EA74B2F0098F68F /* CloudExampleProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B262EBF1EA74B2F0098F68F /* CloudExampleProjectUITests.m */; };
+		4B262ECF1EA74BAF0098F68F /* SendItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B262ECD1EA74BAF0098F68F /* SendItemView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		4B262EBB1EA74B2F0098F68F /* CloudExampleProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudExampleProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B262EBF1EA74B2F0098F68F /* CloudExampleProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CloudExampleProjectUITests.m; sourceTree = "<group>"; };
 		4B262EC11EA74B2F0098F68F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B262ECD1EA74BAF0098F68F /* SendItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendItemView.m; sourceTree = "<group>"; };
+		4B262ECE1EA74BAF0098F68F /* SendItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendItemView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				4B262E9E1EA74B2F0098F68F /* AppDelegate.m */,
 				4B262EA01EA74B2F0098F68F /* ViewController.h */,
 				4B262EA11EA74B2F0098F68F /* ViewController.m */,
+				4B262ECE1EA74BAF0098F68F /* SendItemView.h */,
+				4B262ECD1EA74BAF0098F68F /* SendItemView.m */,
 				4B262EA31EA74B2F0098F68F /* Main.storyboard */,
 				4B262EA61EA74B2F0098F68F /* Assets.xcassets */,
 				4B262EA81EA74B2F0098F68F /* LaunchScreen.storyboard */,
@@ -277,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B262EA21EA74B2F0098F68F /* ViewController.m in Sources */,
+				4B262ECF1EA74BAF0098F68F /* SendItemView.m in Sources */,
 				4B262E9F1EA74B2F0098F68F /* AppDelegate.m in Sources */,
 				4B262E9C1EA74B2F0098F68F /* main.m in Sources */,
 			);
